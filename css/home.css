@@ -35,7 +35,7 @@
   color: white;
   font-size: 30px;
   letter-spacing: 5px;
-  margin: -10px 0 0 0;
+  margin: 5px 0 0 0;
 }
 #videoBannerBtns{
 }
@@ -337,11 +337,4 @@
   rgba(59,173,210, .55) 5px,
   rgba(59,173,210, .55) 8px
 );
-}
-/* @media homepage */
-@media only screen and (max-width: 1100px) {
-  #videoBannerVid{
-    width: auto;
-    height: 100vh
-  }
 }

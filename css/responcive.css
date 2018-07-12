@@ -1,0 +1,38 @@
+/* @media homepage */
+@media screen and (max-width: 1200px) {
+  #videoBannerVid{
+    width: auto;
+    height: 100vh
+  }
+}
+/* @media homepage clients and products sections*/
+@media screen and (max-width: 1000px) {
+  #clientTestiImg{
+    left: 13%;
+    width: 388px;
+    height: 388px;
+    top: -61%;
+  }
+  #clientTesti{
+    left: 20%;
+    background: none;
+    max-height: 1450
+  }
+  #productsSectTwo{
+    flex-direction: column-reverse !important;
+  }
+  .productsSect{
+    flex-direction: column;
+    height: auto !important;
+  }
+  .productsSectText{
+    width: 100%;
+  }
+  .productAniTrack{
+    width: 93%;
+    margin: 0 0 0 5%;
+  }
+  .productsSectText h2{
+    text-align: center;
+  }
+}
