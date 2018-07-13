@@ -36,3 +36,33 @@
     text-align: center;
   }
 }
+/* Services section */
+@media screen and (max-width: 1000px) {
+  #servicesSect{
+    height: 100vh;
+  }
+  #servicesWrap{
+    align-items: center;
+    flex-direction: column;
+  }
+  .SectTitle {
+    font-size: 80px;
+  }
+  .SectSubitle{
+    text-align: center;
+    font-size:25px;
+    letter-spacing: 1.1px;
+  }
+  .SectTitles{
+    margin: -30px 0 0 0;
+  }
+  .serviceBox{
+    margin: 15px;
+  }
+  .serviceBox img{
+    width: 250px;
+  }
+  .serviceBox p{
+    margin: 0 0 -54px 0;
+  }
+}
